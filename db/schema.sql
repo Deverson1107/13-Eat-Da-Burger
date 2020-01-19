@@ -10,4 +10,4 @@ CREATE TABLE burgers (
   PRIMARY KEY (id)
 );
 
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'kaiju0790'
+ALTER USER 'jnda2ynaw5cuzr9i'@'h2cwrn74535xdazj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com' IDENTIFIED WITH mysql_native_password BY 'wdoxq7zp1w4o70rm'
