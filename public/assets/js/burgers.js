@@ -3,14 +3,14 @@ $(function() {
     var id = $(this).data("id");
     var newDevour = $(this).data("newdevoured");
     var newDevourState = {
-      sleepy: newDevour
+      devoured: newDevour
     };
     $.ajax("/api/burgers/" + id, {
       type: "PUT",
       data: newDevourState
     }).then(
       function() {
-        console.log("changed sleep to", newDevour);
+        console.log("changed devoured to", newDevour);
         location.reload();
       }
     );
